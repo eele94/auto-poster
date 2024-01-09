@@ -6,6 +6,6 @@ class PostFacebook
 {
     public function post(string $message): void
     {
-        dd('Posting to Facebook with message: ' . $message);
+        dd('Posting to Facebook with message: '.$message);
     }
 }
