@@ -34,9 +34,9 @@ class PostFacebook
         $fields = [
             PagePost::FIELD_ID,
         ];
-        $params = array(
+        $params = [
             'message' => $message,
-        );
+        ];
 
         $id = 225803273940274;
         $page = new Page($id);
