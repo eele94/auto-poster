@@ -2,9 +2,9 @@
 
 namespace Eele94\AutoPoster;
 
+use Eele94\AutoPoster\Commands\AutoPosterCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Eele94\AutoPoster\Commands\AutoPosterCommand;
 
 class AutoPosterServiceProvider extends PackageServiceProvider
 {

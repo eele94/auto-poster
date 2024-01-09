@@ -2,9 +2,9 @@
 
 namespace Eele94\AutoPoster\Tests;
 
+use Eele94\AutoPoster\AutoPosterServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Eele94\AutoPoster\AutoPosterServiceProvider;
 
 class TestCase extends Orchestra
 {
