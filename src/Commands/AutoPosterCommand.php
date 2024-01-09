@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Eele94\AutoPoster\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class AutoPosterCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'auto-poster';
 
     public $description = 'My command';
 
