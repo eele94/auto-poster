@@ -29,7 +29,7 @@ class PostFacebook
         return $this->api;
     }
 
-    public function post(string $message, $options = []): void
+    public function post($pageId, string $message, $options = []): void
     {
         $fields = [
             PagePost::FIELD_ID,
@@ -38,8 +38,7 @@ class PostFacebook
             'message' => $message,
         ];
 
-        $id = 225803273940274;
-        $page = new Page($id);
+        $page = new Page($pageId);
         $post = $page->createFeed(
             $fields,
             $params
