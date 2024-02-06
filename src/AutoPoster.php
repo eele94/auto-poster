@@ -10,7 +10,7 @@ class AutoPoster
     public function post(SocialMedia $socialMedia, $id, string $message, $options = []): void
     {
         // find Integration class in Integrations folder with name Post{SocialMedia->value}
-        $integration = 'Eele94\\AutoPoster\\Integrations\\Post' . Str::title($socialMedia->value);
+        $integration = 'Eele94\\AutoPoster\\Integrations\\Post'.Str::title($socialMedia->value);
         try {
             // instantiate Integration class
             $integration = new $integration();
